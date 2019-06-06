@@ -1,67 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2596b889-c65c-4707-9fe7-9bda7414d888" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_alibaba_fastjson_1_1_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Algorithm/EightSortAlgorithms/SortAlgorithms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Algorithm/PartitionAlgorithm/MaxSubAarryProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/CompilationPrinciple/Java_LLParserAnalysis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/CompilationPrinciple/Java_LRParserAnalysis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ConcurrentProgramming/ThreadPoolDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/NetworkingBasics/HttpClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/NetworkingBasics/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/NetworkingBasics/ResultStructure/MultipleLineStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/NetworkingBasics/ResultStructure/SingleLineStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/NetworkingBasics/ResultStructure/SubItem_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/TomcatServer/v1/TomcatServerV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/TomcatServer/v2/TomcatServerV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/TomcatServer/v3/ProjectUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/TomcatServer/v3/TomcatServerV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/XMLAnalysis/XMLAnalysis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/XMLAnalysis/books.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Cglib/CglibInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Cglib/CglibInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Cglib/CglibProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Cglib/CglibProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Cglib/CglibProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Cglib/CglibProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DynamicProxy/DynamicProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DynamicProxy/DynamicProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DynamicProxy/DynamicProxyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DynamicProxy/DynamicProxyImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DynamicProxy/DynamicProxyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DynamicProxy/DynamicProxyInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DynamicProxy/DynamicProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DynamicProxy/DynamicProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/EightSortAlgorithms/SortAlgorithms.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/LexicalAnalysis(Java)/Java_LexAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CompilationPrinciple/Java_LexAnalysis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/LexicalAnalysis(Java)/var.text" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Lock/ConditionLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Lock/ConditionLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Lock/ReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Lock/ReentrantLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Reflection/ReflectionApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Reflection/ReflectionApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Reflection/ReflectionInvoke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Reflection/ReflectionInvoke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/StaticProxy/StaticProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/StaticProxy/StaticProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/StaticProxy/StaticProxyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/StaticProxy/StaticProxyImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/StaticProxy/StaticProxyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/StaticProxy/StaticProxyInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/StaticProxy/StaticProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/StaticProxy/StaticProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/StringTest/SplitManyBlank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/StringTest/SplitManyBlank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CglibInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CglibProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CglibProxyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConditionLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DynamicProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DynamicProxyImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DynamicProxyInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DynamicProxyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_LexAnalysis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ReentrantLock$countTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ReentrantLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ReflectionApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ReflectionInvoke.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SortAlgorithms.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SplitManyBlank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StaticProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StaticProxyImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StaticProxyInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StaticProxyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/var.text" beforeDir="false" />
-    </list>
+    <list default="true" id="2596b889-c65c-4707-9fe7-9bda7414d888" name="Default Changelist" comment="第二次提交" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/XMLAnalysis/XMLAnalysis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="103" selection-start-line="103" selection-end-line="103" />
+            <state relative-caret-position="288">
+              <caret line="105" column="1" lean-forward="true" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/XMLAnalysis/people.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -118,6 +58,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="陈哲" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -245,7 +190,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.3321839" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -417,18 +362,35 @@
       <workItem from="1559660425636" duration="194000" />
       <workItem from="1559701760864" duration="2773000" />
       <workItem from="1559715675850" duration="11516000" />
-      <workItem from="1559799218747" duration="710000" />
+      <workItem from="1559799218747" duration="1421000" />
     </task>
+    <task id="LOCAL-00001" summary="第二次提交">
+      <created>1559800075942</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559800075942</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239227000" />
+    <option name="totallyTimeSpent" value="239938000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23979957" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23979957" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -441,11 +403,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35367373" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32876712" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4996421" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32876712" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5003579" side_tool="true" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.5491905" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -464,7 +426,8 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="第二次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二次提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1167,18 +1130,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/XMLAnalysis/people.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/XMLAnalysis/XMLAnalysis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        <state relative-caret-position="288">
+          <caret line="105" column="1" lean-forward="true" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/XMLAnalysis/people.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
