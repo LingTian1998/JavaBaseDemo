@@ -1,3 +1,4 @@
+package main.Cglib;
 import net.sf.cglib.proxy.Enhancer;
 
 public class CglibProxyTest {

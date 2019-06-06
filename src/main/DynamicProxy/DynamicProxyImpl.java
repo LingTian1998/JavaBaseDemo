@@ -1,3 +1,4 @@
+package main.DynamicProxy;
 public class DynamicProxyImpl implements DynamicProxyInterface{
     public void sayHello(String string){
         System.out.println("Hello,"+string);

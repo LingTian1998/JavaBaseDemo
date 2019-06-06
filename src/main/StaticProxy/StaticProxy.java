@@ -1,3 +1,4 @@
+package main.StaticProxy;
 public class StaticProxy implements StaticProxyInterface{
     private StaticProxyInterface staticProxyInterface = new StaticProxyImpl();
     public void sayHello(String string){

@@ -1,4 +1,4 @@
-import sun.reflect.Reflection;
+package main.Reflection;
 
 import java.lang.reflect.Method;
 

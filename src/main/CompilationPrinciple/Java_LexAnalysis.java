@@ -1,12 +1,14 @@
+package main.CompilationPrinciple;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-public class Java_LexAnalysis {
+class Java_LexAnalysis {
     private static StringBuffer prog = new StringBuffer();
     private static ArrayList<String> arrayList = new ArrayList<String>();
-
+    private static ArrayList<String> resultList= new ArrayList<String>();
     /**
      *  this method is to read the standard input
      */
@@ -367,26 +369,29 @@ public class Java_LexAnalysis {
 
         String string = stringBuffer.toString();
         String pattern = "\\s+";
-        String pattern1 = "([1-9]\\d*\\.?\\d*)|(0\\.\\d*[1-9])";
         if (Pattern.matches(pattern,string)){
             // TODO: 2019/5/1
         }
         else if (dightFlag){
+            resultList.add(string);
             string="<"+string+","+80+">";
             output(string);
             dightFlag=false;
         }
         else if (commentFlag){
+            resultList.add(string);
             string="<"+string+","+79+">";
             output(string);
             commentFlag=false;
         }
         else {
             if (keyList.contains(string)){
+                resultList.add(string);
                 string= "<"+string+","+hashMap.get(string)+">";
                 output(string);
             }
             else{
+                resultList.add(string);
                 string="<"+string+","+81+">";
                 output(string);
             }
@@ -440,5 +445,17 @@ public class Java_LexAnalysis {
             index=0;
         }
 
+    }
+    public  ArrayList<String> Result_LexAnalysis() {
+        read_prog();
+        for (String string:arrayList){
+            analysis(string);
+            if (status==99){
+                status=END_STATE1;
+                commentFlag=true;
+            }
+            index=0;
+        }
+        return resultList;
     }
 }
