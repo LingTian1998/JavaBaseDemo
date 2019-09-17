@@ -1,4 +1,4 @@
-package main.NetWork.bio;
+package main.IO.bio;
 
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;

@@ -1,14 +1,12 @@
-package main.NetWork.nio;
+package main.IO.nio;
 
 import java.net.InetSocketAddress;
 import java.net.ServerSocket;
-import java.net.SocketAddress;
 import java.nio.ByteBuffer;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
-import java.util.Iterator;
 import java.util.Set;
 
 public class Server {
@@ -22,29 +20,39 @@ public class Server {
         serverSocketChannel.configureBlocking(false);
         serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
 
-        int nKeys = selector.select();
-        SelectionKey selectionKey = null;
-        if (nKeys>0){
-            Set<SelectionKey> keys = selector.keys();
-            for (SelectionKey key: keys){
-                if (key.isAcceptable()){
-                    ServerSocketChannel serversocketChannel = (ServerSocketChannel) key.channel();
-                    SocketChannel socketChannel = serverSocketChannel.accept();
-                    if (serversocketChannel==null){
-                        continue;
+        while (true) {
+            int nKeys = selector.select();
+            SelectionKey selectionKey = null;
+            if (nKeys > 0) {
+                Set<SelectionKey> keys = selector.keys();
+                for (SelectionKey key : keys) {
+                    if (key.isAcceptable()) {
+                        System.out.println("Now,key is acceptable!");
+                        //一般注册OP_ACCEPT的都是serversocketChannel
+                        ServerSocketChannel serversocketChannel = (ServerSocketChannel) key.channel();
+                        SocketChannel socketChannel = serverSocketChannel.accept();
+                        if (socketChannel == null) {
+                            continue;
+                        }
+                        socketChannel.configureBlocking(false);
+                        socketChannel.register(selector, SelectionKey.OP_READ);
                     }
-                    socketChannel.configureBlocking(false);
-                    socketChannel.register(selector,SelectionKey.OP_READ);
+                    else if (key.isReadable()){
+                        System.out.println("Now, key is readable!");
+                        SocketChannel socketChannel = (SocketChannel)key.channel();
 
-                    int keyNum = selector.select();
-                    Set<SelectionKey> tempKeys = selector.keys();
-                    for (SelectionKey tempKey: tempKeys){
-                        if (tempKey.isReadable()){
-                            System.out.println("isReadable！");
+                        ByteBuffer buffer = ByteBuffer.allocate(48);
+                        int bufferRead = socketChannel.read(buffer);
+
+                        while (bufferRead!=-1){
+                            buffer.flip();
+                            while (buffer.hasRemaining()) {
+                                System.out.print((char) buffer.get());
+                            }
+                            buffer.clear();
+                            bufferRead = socketChannel.read(buffer);
                         }
-                        if (tempKey.isWritable()){
-                            System.out.println("isWritable!");
-                        }
+                        System.out.println();
                     }
                 }
             }

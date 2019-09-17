@@ -1,4 +1,4 @@
-package main.NetWork.nio.channel;
+package main.IO.nio.channel;
 
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;

@@ -1,9 +1,8 @@
-package main.NetWork.nio.channel;
+package main.IO.nio.channel;
 
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
-import java.util.Random;
 
 public class FileTransferExample {
     private static String fromTest = "D:\\fromTest.txt";
